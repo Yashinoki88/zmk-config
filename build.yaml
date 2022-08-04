@@ -11,7 +11,12 @@
 #   - board: nice_nano_v2
 #     shield: reviung41
 #
----
+#board: [ "seeeduino_xiao_ble" ]
+#shield: [ "faw36_left", "faw36_right" ]
 include:
   - board: seeeduino_xiao_ble
-    shield: hummingbird
+    shield: faw36_left
+  - board: seeeduino_xiao_ble
+    shield: faw36_right
+  - board: seeeduino_xiao_ble
+    shield: settings_reset
