@@ -4,6 +4,12 @@
 config ZMK_BLE
 	default y
 
+config BT_MAX_CONN
+	default 1
+
+config BT_MAX_PAIRED
+	default 1
+
 config ZMK_USB
 	default y
 
